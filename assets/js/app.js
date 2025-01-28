@@ -545,9 +545,8 @@ document.addEventListener('DOMContentLoaded', function () {
       // Basic form validation
       if (!name || !email || !address || !phone) {
         Swal.fire({
-          icon: 'error',
-          title: 'Data Tidak Lengkap',
-          text: 'Mohon lengkapi semua informasi pengiriman',
+          icon: 'success',
+          title: 'Product Telah Ditambahkan!',
           confirmButtonColor: '#28a745',
         });
         return;
